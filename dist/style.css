@@ -1,0 +1,71 @@
+#navegacao {
+    margin-left: 350px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+#logo {
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 980px){
+    #navegacao {
+        margin-left: 0;
+    }
+}
+
+#root {
+    margin: auto;    
+}
+
+#cartoes {
+    align-items: center;
+    width: 200px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+#titulo {
+    font-size: 15px;
+}
+
+.card {
+   width: 200px;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+#form {
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+}
+
+#cardBottom {
+    margin-left: 25px;
+    align-items: flex-end;
+    display: inline;
+}
+
+
+
+.accordion {
+    margin-top: 50px;
+    margin: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.accordion-item {
+    background-color: blue;
+}
+
