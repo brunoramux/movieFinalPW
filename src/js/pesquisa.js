@@ -64,6 +64,8 @@ botao.addEventListener('click', function() {
     const url = `https://api.themoviedb.org/3/search/movie?api_key=946404caaa5dadc624776d0a03d47402&language=pt-BR&query=${text}`
 
     htmlElement.innerHTML = ''
+
+    window.location.href = `http://localhost:8080/index.html`
     
     montaCard(url)
 
